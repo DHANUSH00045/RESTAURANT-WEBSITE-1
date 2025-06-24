@@ -216,7 +216,7 @@ section{
     line-height: 1.7;
 }
 .cta{
-    background: #d06705;
+    background: rgb(219, 192, 155);
     padding: 70px 0;
     text-align: center;
     width: 66%;
@@ -262,12 +262,10 @@ section{
     color: var(--text-color);
     transform: translateX(-12px);
 }
-.col .Social{
-    width: 220px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.col .Social a {
+    margin-right: 25px;
 }
+
 .col .Social a{
     height: 40px;
     width: 40px;
